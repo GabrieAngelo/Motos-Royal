@@ -17,6 +17,12 @@ h1 {
     font-size: 30px;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
 header {
     background-color: black;
     width: 100%;
@@ -160,12 +166,17 @@ header {
     width: 100%;
     height: 20%;
     transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_text {
-    width: 100%;
-    height: 20%;
-    background-color: blue;
+    width: 40%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_foto {
@@ -268,6 +279,10 @@ footer {
 
 .vermelho {
     background-color: red;
+}
+
+.preto {
+    color: black;
 }
 
 a {
