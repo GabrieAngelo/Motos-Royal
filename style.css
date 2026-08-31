@@ -77,6 +77,7 @@ header {
 
 .text {
     background-color: black;
+    cursor: pointer;
 }
 
 #localizacao {
@@ -98,9 +99,10 @@ header {
     align-items: center;
 }
 
-#entrar {
+.entrar {
     height: 100%;
     width: 50px;
+    cursor: pointer;
 }
 
 #dark {
@@ -144,6 +146,7 @@ header {
     align-items: end;
     border: 2px solid rgb(78, 78, 78);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .card_name {
@@ -184,16 +187,18 @@ header {
     width: 35px;
     background-image: url(img/insta.png);
     background-size: cover;
+    cursor: pointer;
 }
 
 #insta:hover {
-    background-image: url(img/insta2.png)
+    background-image: url(img/insta2.png);
 }
 
 #gmail {
     height: 35px;
     width: 35px;
     background-color: black;
+    cursor: pointer;
 }
 
 #foot2 {
@@ -244,4 +249,9 @@ header {
 
 .vermelho {
     background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
