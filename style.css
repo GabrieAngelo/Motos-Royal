@@ -139,6 +139,14 @@ header {
     background-color: aliceblue;
 }
 
+#principal_pagina {
+    height: 90%;
+    width: 30%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
 #principal2 {
     height: 100%;
     width: 70%;
